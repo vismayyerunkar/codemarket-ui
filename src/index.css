@@ -1,4 +1,13 @@
 body {
+
+  /* width: 100vw;
+  height: 100vh; */
+  margin: 0; /* Space from this element (entire page) and others*/
+  padding: 0; /*space from content and border*/
+  display:block;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 0 0 13px #333;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +20,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,276 @@
+/* App component */
+.Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    height: 100vh;
+    border: 10px solid rgb(109, 105, 105);
+    box-sizing: border-box;
+}
+#name{
+color: rgb(57, 24, 177);
+font-size: 8vw;
+margin-top: -65px;
+margin-bottom: 15px;
+}
+.proceed{
+padding: 10px;
+border-radius: 10px;
+background-color: rgb(19, 180, 255);
+transition: transform .4s; 
+}
+
+.proceed:hover{
+cursor: pointer;
+padding: 10px;
+border-radius: 10px;
+transform: scale(1.2);
+background-color: rgb(17, 134, 189);
+}
+
+
+/* Signup component */
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid rgb(109, 105, 105);
+    box-sizing: border-box;
+}
+.intro{
+    height: 52vh;
+    margin: 30px;
+    background-color: #949090;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 38vw;
+}
+.ask-authenticate{
+    color: rgb(83, 235, 189);
+    transition: transform .4s; 
+
+}
+.link{
+    text-decoration: none;
+}
+
+.ask-authenticate:hover{
+    color: rgb(60, 187, 149);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.login-btn{
+    padding: 10px;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: rgb(19, 180, 255);
+    transition: transform .4s; 
+    margin-top: 10px;
+}
+.login-btn:hover{
+    padding: 10px;
+    width: 20vw;
+    background-color: rgb(19, 180, 255);
+    transition: transform .4s; 
+    cursor: pointer;
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+
+
+/* Login component */
+
+.login-header{
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-inputs{
+    background-color: red;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-footer{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* coach intro component */
+
+.coach-intro{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+/* Coach message component */
+
+.coach-message{
+    height: 100vh;
+}
+.coach-message-header{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.coach-message-title{
+    color: blue;
+    margin-bottom: 15px;
+}
+.coach-message-content{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.coach-message-content .coach-item{
+    margin-bottom: 50px;
+}
+
+
+/* Coach start component */
+.coach-start{
+    height: 100vh;
+}
+.coach-start-header{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-color:red;
+}
+.coach-start-body{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.coach-start-btn{
+    margin-top: 100px;
+}
+
+
+
+/* Coach plan component */
+
+.coachplan{
+    height: 100vh;
+}
+
+.plan-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    color: blue;
+}
+.plan-body{
+    background-color: whitesmoke;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.plan-item{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plan-annual{
+    width: 45vw;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    transition: transform .4s; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.plan-annual:hover{
+    cursor: pointer;
+    width: 45vw;
+    background-color: blue;
+    color: whitesmoke;    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    transition: transform .4s; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: scale(1.2);
+}
+.plan-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.plan-footer-btn{
+   margin-top: 15px; 
+   background-color: blue;
+   color: whitesmoke;
+   padding: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.plan-footer-btn:hover{
+    cursor: pointer;
+   margin-top: 15px; 
+   background-color: rgb(12, 12, 155);
+   color: whitesmoke;
+   padding: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+}

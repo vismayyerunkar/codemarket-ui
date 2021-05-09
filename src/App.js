@@ -1,23 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home.js'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Signup from './components/Signup'
+import Login from './components/Login'
+import CoachIntro from './components/CoachIntro'
+import CoachMessage from './components/CoachMessage'
+import CoachStart from './components/CoachStart'
+import Coach from './components/Coach'
+import CoachPlan from './components/CoachPlan'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Switch>
+
+        {/*Drreamz Authentication Routes */}
+        <Route path='/' component={Home} exact/>
+        <Route path='/signup' component={Signup} exact/>
+        <Route path='/login' component={Login} exact/>
+
+        {/*Coach Routes */}
+        <Route path='/coach-intro' component={CoachIntro} exact/>
+        <Route path='/coach-message' component={CoachMessage} exact/>
+        <Route path='/coach-start' component={CoachStart} exact/>
+        <Route path='/coach-plan-payment' component={CoachPlan} exact/>
+        <Route path='/coach' component={Coach} exact/>
+        
+
+    </Switch>
+    
     </div>
   );
 }
